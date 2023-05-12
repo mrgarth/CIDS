@@ -132,9 +132,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#AlignmentRisk"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AuditedFinancialInformation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#BeneficialStakeholder"/>
     </Declaration>
     <Declaration>
@@ -340,9 +337,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Theme"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UnauditedFinancialInformation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UnexpectedImpactRisk"/>
@@ -1138,38 +1132,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
             <DataProperty abbreviatedIRI="org:hasIdentifier"/>
             <Literal>Alignment Risk</Literal>
         </DataHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AuditedFinancialInformation"/>
-        <Class IRI="#FinancialInformation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AuditedFinancialInformation"/>
-        <DataHasValue>
-            <DataProperty IRI="#hasAuditedFinancialStatement"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </DataHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AuditedFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#forYear1"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AuditedFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#forYear2"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AuditedFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#forYear3"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BeneficialStakeholder"/>
@@ -3457,52 +3419,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UnauditedFinancialInformation"/>
-        <Class IRI="#FinancialInformation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UnauditedFinancialInformation"/>
-        <DataHasValue>
-            <DataProperty IRI="#hasAuditedFinancialStatement"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
-        </DataHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UnauditedFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasCurrentAssets"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UnauditedFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasTotalAssets"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UnauditedFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasTotalExpenses"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UnauditedFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasTotalLiabilities"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UnauditedFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasTotalRevenues"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UnexpectedImpactRisk"/>
         <Class IRI="#ImpactRisk"/>
     </SubClassOf>
@@ -3546,10 +3462,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class abbreviatedIRI="dcat:Dataset"/>
         <Class IRI="#DcatThing"/>
     </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#AuditedFinancialInformation"/>
-        <Class IRI="#UnauditedFinancialInformation"/>
-    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#CompositeCharacteristic"/>
         <Class IRI="#PrimitiveCharacteristic"/>
@@ -4475,14 +4387,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Literal xml:lang="en">Alignment Risk considers an impact that that is not correlated with the organization's intended mission. The probability that impact is not locked into the enterprise model.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#AuditedFinancialInformation</IRI>
-        <Literal xml:lang="en">The AuditedFinancialInformation class is a subClassOf FinancialInformation, and captures audited financial information for the organization. It has the following properties:
-•	forYear1: URI linking to the audited statement for Year 1.
-•	forYear2: URI linking to the audited statement for Year 2.
-•	forYear3: URI linking to the audited statement for Year 3.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:commment"/>
         <IRI>#BeneficialStakeholder</IRI>
         <Literal xml:lang="en">A Beneficiary_Stakeholder is a stakeholder that benefits from an impact model’s outcome.</Literal>
@@ -5245,16 +5149,6 @@ Stakeholder contains the following properties:
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Theme</IRI>
         <Literal xml:lang="en">Theme</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UnauditedFinancialInformation</IRI>
-        <Literal xml:lang="en">The UnauditedFinancialInformation class is a subClassOf FinancialInformation, and captures unaudited financial information for the organization. It has the following properties:
-•	hasCurrentAssets: Current assets of the organization for the specified year in dollars.
-•	hasTotalAssets: Total assets of the organization for the specified year in dollars.
-•	hasTotalLiabilities; Total liabilities of the organization for the specified year in dollars.
-•	hasTotalRevenues: Total revenues of the organization for the specified year in dollars.
-•	hasTotalExpenses: Total expenses of the organization for the specified year in dollars.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
