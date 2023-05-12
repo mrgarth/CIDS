@@ -3229,72 +3229,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#PhysicalResource"/>
         <Class IRI="#SkillResource"/>
     </DisjointClasses>
-<!--    These qualitative metric options mirror the required values in "hasLikelihood" and "hasConsequence"
-from the "ImpactRisk" They will be deleted once I confirm that they are not used for anything. - Seonaid
-<ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#average"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#better"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#highRisk"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#likely"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#lowRisk"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#mediumRisk"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#minimal"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#negative"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#neutral"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#none"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#positive"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#severe"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#unlikely"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#veryLikely"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#veryUnlikely"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#QualitativeMetric"/>
-        <NamedIndividual IRI="#worse"/>
-    </ClassAssertion> -->
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#Occupation"/>
         <ObjectProperty IRI="#cidsObjectProperty"/>
@@ -4690,16 +4624,6 @@ A person can play a role at an organization. For any role, a person can be assig
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#QualitativeMetric</IRI>
-        <Literal xml:lang="en">Set of instances used as values for various properties that have qualitative values, such as low, medium, etc.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#QualitativeMetric</IRI>
-        <Literal xml:lang="en">Qualitative Metric</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#RatioIndicator</IRI>
         <Literal xml:lang="en">An indicator that is the ratio of two quantities.</Literal>
     </AnnotationAssertion>
@@ -4707,22 +4631,6 @@ A person can play a role at an organization. For any role, a person can be assig
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RatioIndicator</IRI>
         <Literal xml:lang="en">Ratio Indicator</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#ServedPopulation</IRI>
-        <Literal xml:lang="en">The ServedPopulation Class identifies which populations are served by the funding. It has the following properties:
-•	officialLanguageMinorityCommunities:  True if official language minority community.
-•	livingWithMentalIllnessAddiction: True if living with mental illness or additions.
-•	seniors: True if seniors.
-•	lGBTQ2Splus: True if LGBTQ2+.
-•	racialized: True if racialized.
-•	ruralRemoteNorthernCommunity: True if rural or remote northern community.
-•	peopleWithDisabilities: True if people with disabilities.
-•	indigenous: True if Indigenous people.
-•	womenAndGirls: True if women or girls.
-•	childrenAndYouth: True if children or youth.
-•	lowIncome: True if low income.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:commment"/>
