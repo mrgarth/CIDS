@@ -401,9 +401,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <ObjectProperty IRI="#canProduce"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#changeDirection"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#cidsObjectProperty"/>
     </Declaration>
     <Declaration>
@@ -3243,10 +3240,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#canProduce"/>
-        <ObjectProperty IRI="#cidsObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#changeDirection"/>
         <ObjectProperty IRI="#cidsObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
