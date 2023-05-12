@@ -206,9 +206,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#FinancialResource"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FundingRequest"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#HowMuchImpact"/>
     </Declaration>
     <Declaration>
@@ -260,9 +257,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#Organization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OrganizationFunding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Outcome"/>
     </Declaration>
     <Declaration>
@@ -288,9 +282,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Program"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ProjectFunding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#QualitativeMetric"/>
@@ -495,9 +486,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasFinancialInformation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasFundingRequest"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasImmigrationStatus"/>
@@ -1553,76 +1541,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class abbreviatedIRI="act:Resource"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <Class IRI="#cidsThing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasImpactModel"/>
-            <Class IRI="#ImpactModel"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#servesPopulation"/>
-            <Class IRI="#ServedPopulation"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#hasBios"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#hasImpactModelFile"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#servesGeographicRegion"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#servesMarket"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#targetClient"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#fundsIntension"/>
-            <DataOneOf>
-                <Literal>organization</Literal>
-                <Literal>project</Literal>
-            </DataOneOf>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FundingRequest"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#fundsRequested"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#HowMuchImpact"/>
         <Class IRI="#cidsThing"/>
     </SubClassOf>
@@ -2341,56 +2259,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OrganizationFunding"/>
-        <Class IRI="#FundingRequest"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OrganizationFunding"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#hasBusinessPlanFile"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OrganizationFunding"/>
-        <DataHasValue>
-            <DataProperty IRI="#fundsIntension"/>
-            <Literal>organization</Literal>
-        </DataHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OrganizationFunding"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasBCorpProfile"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OrganizationFunding"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasBCorpScore"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OrganizationFunding"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasCharityProfile"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OrganizationFunding"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#imagineCanadaProgram"/>
-            <DataOneOf>
-                <Literal>inProgress</Literal>
-                <Literal>no</Literal>
-                <Literal>yes</Literal>
-            </DataOneOf>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Outcome"/>
         <Class IRI="#cidsThing"/>
     </SubClassOf>
@@ -2791,52 +2659,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#Program"/>
         <DataExactCardinality cardinality="1">
             <DataProperty abbreviatedIRI="org:hasName"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ProjectFunding"/>
-        <Class IRI="#FundingRequest"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ProjectFunding"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasProjectPartners"/>
-            <Class IRI="#Organization"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ProjectFunding"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#hasProjectObjectives"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ProjectFunding"/>
-        <DataHasValue>
-            <DataProperty IRI="#fundsIntension"/>
-            <Literal>project</Literal>
-        </DataHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ProjectFunding"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasBudgetFile"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ProjectFunding"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasProjectDescriptionFile"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ProjectFunding"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasProjectName"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataExactCardinality>
     </SubClassOf>
@@ -3593,10 +3415,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasFinancialInformation"/>
-        <ObjectProperty IRI="#cidsObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasFundingRequest"/>
         <ObjectProperty IRI="#cidsObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -4520,17 +4338,6 @@ i72:value: value of the counterfactual</Literal>
         <Literal xml:lang="en">Financial Resource</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#FundingRequest</IRI>
-        <Literal xml:lang="en">The FundingRequest class specifies information about the organization’s request for funding. It has the following properties:
-•	fundsRequested: Specifies the amount of funds requested for the organization or project
-•	fundsIntension: Specifies the intended use of the funds, such as for the organization or a project/program.
-•	hasImpactModel: Links to a CIDS impact model instance.
-•	hasImpactModelFile: Links to an impact model defined in a file.
-•	hasBios Links to a file containing the organization’s executive's and Board's, or project/program biographies.
-•	servesPopulation: Links to ServedPopulation instance that identifies the populations served by the funding.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>#HowMuchImpact</IRI>
         <Literal xml:lang="en">HowMuchImpact defines the properties common to ImpactScale, ImpactDepth and ImpactDuration:
@@ -4773,23 +4580,12 @@ Properties common across all types of Input are:
 •	hasWebAddress: a URI specifying the website for the organization.
 •	hasMission: text defining the mission or vision of the organization.
 •	hasFinancialInformation: Links to instances of FinancialInformation.
-•	hasFundingRequest: Links to instance of FundingRequest which specifies the funds requested.
 •	sch:dateCreated: the date the Organization’s record was created.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Organization</IRI>
         <Literal xml:lang="en">Organization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OrganizationFunding</IRI>
-        <Literal xml:lang="en">The OrganizationFunding class specifies information about the organization when they request funding for the organization. It has the following properties:
-•	hasBusinessPlanFile: Links to a file containing the organization’s business plan.
-•	imagineCanadaProgram Specifies whether the organization participates in the Imagine Canada Standards program.
-•	hasBCorpScore: B-Corp score for the organization.
-•	hasBCorpProfile: Links to a file containing the organization’s b-Corp profile.
-•	hasCharityProfile: Links to a file containing the organization’s charity profile.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:commment"/>
@@ -4889,16 +4685,6 @@ A person can play a role at an organization. For any role, a person can be assig
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Program</IRI>
         <Literal xml:lang="en">Program</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#ProjectFunding</IRI>
-        <Literal xml:lang="en">The ProjectFunding class specifies information about the organization when they request funding for a project or program. It has the following properties:
-•	hasProjectName: Name of the project for which funds are requested.
-•	hasProjectObjectives: Description of project objectives
-•	hasProjectDescriptionFile: Link to file describing the project.
-•	hasProjectPartners: Links to partner organizations.
-•	hasBudgetFile: Link to file describing the project budget.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
