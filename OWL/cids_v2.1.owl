@@ -3229,7 +3229,9 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#PhysicalResource"/>
         <Class IRI="#SkillResource"/>
     </DisjointClasses>
-    <ClassAssertion>
+<!--    These qualitative metric options mirror the required values in "hasLikelihood" and "hasConsequence"
+from the "ImpactRisk" They will be deleted once I confirm that they are not used for anything. - Seonaid
+<ClassAssertion>
         <Class IRI="#QualitativeMetric"/>
         <NamedIndividual IRI="#average"/>
     </ClassAssertion>
@@ -3292,7 +3294,7 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     <ClassAssertion>
         <Class IRI="#QualitativeMetric"/>
         <NamedIndividual IRI="#worse"/>
-    </ClassAssertion>
+    </ClassAssertion> -->
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#Occupation"/>
         <ObjectProperty IRI="#cidsObjectProperty"/>
