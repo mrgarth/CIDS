@@ -24,7 +24,6 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="adms" IRI="http://www.w3.org/ns/adms#"/>
-    <Prefix name="caco" IRI="http://ontology.eil.utoronto.ca/CAO/cids#"/>
     <Prefix name="cids" IRI="http://ontology.commonapproach.org/owl/cids_v2.1#"/>
     <Prefix name="cwrc" IRI="http://sparql.cwrc.ca/ontologies/cwrc#"/>
     <Prefix name="dcat" IRI="http://www.w3.org/ns/dcat#"/>
@@ -250,9 +249,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Input"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#LeadershipProfile"/>
     </Declaration>
     <Declaration>
         <Class IRI="#LogicModel"/>
@@ -2200,73 +2196,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataExactCardinality cardinality="1">
             <DataProperty abbreviatedIRI="org:hasName"/>
             <Datatype abbreviatedIRI="xsd:string"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <Class IRI="#cidsThing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#blackBoard"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#blackLead"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#blackOwned"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#indigenousBoard"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#indigenousOwned"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#indigenouseLead"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#womenBoard"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#womenLead"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LeadershipProfile"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#womenOwned"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
         </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -4800,16 +4729,6 @@ Properties common across all types of Input are:
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Input</IRI>
         <Literal xml:lang="en">Input</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:description"/>
-        <IRI>#LeadershipProfile</IRI>
-        <Literal xml:lang="en">The LeaderShipProfile captures data on the leadership of the caco:Organization. This can be extended by the funder and/or SPO. Each property identifies the presence or absence of group in ownership, leadership and board roles.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#LeadershipProfile</IRI>
-        <Literal xml:lang="en">Leadership Profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:commment"/>
