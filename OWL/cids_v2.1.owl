@@ -194,9 +194,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#ExternalRisk"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FinancialInformation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#FinancialInput"/>
     </Declaration>
     <Declaration>
@@ -315,9 +312,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#StandardsOrganization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SupplementalFinancialInformation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Supplier"/>
@@ -480,9 +474,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasDisease"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasFinancialInformation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasImmigrationStatus"/>
@@ -1454,31 +1445,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
             <DataProperty abbreviatedIRI="org:hasIdentifier"/>
             <Literal>External Risk</Literal>
         </DataHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FinancialInformation"/>
-        <Class IRI="#cidsThing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FinancialInformation"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasSupplementalFinanicalInformation"/>
-            <Class IRI="#SupplementalFinancialInformation"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#forYear"/>
-            <Datatype abbreviatedIRI="xsd:date"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasAuditedFinancialStatement"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FinancialInput"/>
@@ -3071,73 +3037,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <Class IRI="#cidsThing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasDeferredRevenue"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasDepreciationExpense"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasEndowment"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasFundRaising"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasGovernmentGrants"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasInventory"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasInvestmentExpense"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasSalesRevenue"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SupplementalFinancialInformation"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasTotalOverhead"/>
-            <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Supplier"/>
         <Class IRI="#Stakeholder"/>
     </SubClassOf>
@@ -3174,7 +3073,7 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#UnexpectedImpactRisk"/>
         <DataHasValue>
             <DataProperty abbreviatedIRI="org:hasIdentifier"/>
-            <Literal>UnexpectedImmpact Risk</Literal>
+            <Literal>UnexpectedImpact Risk</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -3340,10 +3239,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDisease"/>
-        <ObjectProperty IRI="#cidsObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasFinancialInformation"/>
         <ObjectProperty IRI="#cidsObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -4231,13 +4126,6 @@ i72:value: value of the counterfactual</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#FinancialInformation</IRI>
-        <Literal xml:lang="en">The FinancialInformation class is used to specify the organization’s financial information. It has the following property:
-•	forYear: The year of the financial information.
-•	hasAuditedFinanicalStatement: Boolean indicating whether the organization has an audited financial statement.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#FinancialInput</IRI>
         <Literal xml:lang="en">Financial resource that is used as input to an activity or service.</Literal>
     </AnnotationAssertion>
@@ -4508,7 +4396,6 @@ Properties common across all types of Input are:
 •	hasDescription: a string that describes the Organization.
 •	hasWebAddress: a URI specifying the website for the organization.
 •	hasMission: text defining the mission or vision of the organization.
-•	hasFinancialInformation: Links to instances of FinancialInformation.
 •	sch:dateCreated: the date the Organization’s record was created.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -4733,20 +4620,6 @@ Stakeholder contains the following properties:
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#StandardsOrganization</IRI>
         <Literal xml:lang="en">Standards Organization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SupplementalFinancialInformation</IRI>
-        <Literal xml:lang="en">The SupplementalFinanicalInformation class is used to specify additional, optional financial information for the organization. It has the following properties:
-•	hasEndowment: Specifies the amount of the organization’s endowment.
-•	hasInventory: Specifies the amount of the organization’s inventlry.
-•	hasDeferredRevenue: Specifies the amount of the organization’s deferred revenue.
-•	hasSalesRevenue: Specifies the amount of the organization’s sales revenue.
-•	hasGovernmentGrants: Specifies the amount of the organization’s government grants
-•	hasFundRaising: Specifies the amount of the organization’s fundraising.
-•	hasTotalOverhead: Specifies the amount of the organization’s total overhead.
-•	hasDepreciationExpense: Specifies the amount of the organization’s depreciation expenses.
-•	hasInvestmentExpense: Specifies the amount of the organization’s investment expenses.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
