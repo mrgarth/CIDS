@@ -1,8 +1,8 @@
 
 	{
 		"@context": [
-			"http://ontology.eil.utoronto.ca/cids/contexts/cidsPrefix.json" ,
-			"http://ontology.eil.utoronto.ca/cids/contexts/TOVEOrganizationContext.json" ,
+			"http://ontology.commonapproach.org/owl/contexts/cidsPrefix.json" ,
+			"http://ontology.commonapproach.org/owl/contexts/TOVEOrganizationContext.json" ,
 		    {
 			"hasImpactModel": {
 				"@id": "cids:hasImpactModel",

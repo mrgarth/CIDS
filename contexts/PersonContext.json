@@ -1,9 +1,9 @@
 
 	{
-		"@context": ["http://ontology.eil.utoronto.ca/cids/contexts/cidsPrefix.json",
-		"http://ontology.eil.utoronto.ca/cids/contexts/AddressContext.json",
-		"http://ontology.eil.utoronto.ca/cids/contexts/PhoneNumberContext.json",
-		"http://ontology.eil.utoronto.ca/cids/contexts/RoleContext.json" ,
+		"@context": ["http://ontology.commonapproach.org/owl/contexts/cidsPrefix.json",
+		"http://ontology.commonapproach.org/owl/contexts/AddressContext.json",
+		"http://ontology.commonapproach.org/owl/contexts/PhoneNumberContext.json",
+		"http://ontology.commonapproach.org/owl/contexts/RoleContext.json" ,
 		{
 			"hasAddress" : {
 				"@id": "ic:hasAddress",

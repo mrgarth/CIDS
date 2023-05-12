@@ -1,6 +1,6 @@
 
 	{
-		"@context": ["http://ontology.eil.utoronto.ca/cids/contexts/cidsPrefix.json",
+		"@context": ["http://ontology.commonapproach.org/owl/contexts/cidsPrefix.json",
 		{
 			"hasCountryCode" : {
 				"@id": "ic:hasCountryCode",
