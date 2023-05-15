@@ -2626,10 +2626,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#QualitativeMetric"/>
-        <Class IRI="#cidsThing"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#RatioIndicator"/>
         <Class IRI="#Indicator"/>
     </SubClassOf>
