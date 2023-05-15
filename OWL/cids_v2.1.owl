@@ -3229,10 +3229,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <ObjectProperty IRI="#cidsObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasProjectPartners"/>
-        <ObjectProperty IRI="#cidsObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasResource"/>
         <ObjectProperty IRI="#cidsObjectProperty"/>
     </SubObjectPropertyOf>
@@ -3246,10 +3242,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasStakeholderOutcome"/>
-        <ObjectProperty IRI="#cidsObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasSupplementalFinanicalInformation"/>
         <ObjectProperty IRI="#cidsObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -3278,10 +3270,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#produces"/>
-        <ObjectProperty IRI="#cidsObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#servesPopulation"/>
         <ObjectProperty IRI="#cidsObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -3375,42 +3363,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#blackBoard"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#blackLead"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#blackOwned"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#codeValueDescription"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#forYear"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#forYear1"/>
-        <DataProperty IRI="#forYear"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#forYear2"/>
-        <DataProperty IRI="#forYear"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#forYear3"/>
-        <DataProperty IRI="#forYear"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#fundsRequested"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#hasCatchmentArea"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
@@ -3443,10 +3395,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasMethodS"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#hasMission"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
@@ -3471,39 +3419,11 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#indigenousBoard"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#indigenousOwned"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#indigenouseLead"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#intendedImpact"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#isUnderserved"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#useOfFunds"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#womenBoard"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#womenLead"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#womenOwned"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -3531,9 +3451,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty abbreviatedIRI="i72:numerical_value"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
-        <DataProperty IRI="#codeValueDescription"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#hasComment"/>
