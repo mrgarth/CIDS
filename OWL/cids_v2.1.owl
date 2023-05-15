@@ -3472,15 +3472,7 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#childrenAndYouth"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#codeValueDescription"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#commonFormDataProperties"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -3500,44 +3492,12 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#forYear"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#fundsIntension"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#fundsRequested"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasAuditedFinancialStatement"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasBCorpProfile"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasBCorpScore"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasBios"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasBudgetFile"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasBusinessPlanFile"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#hasCatchmentArea"/>
         <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasCharityProfile"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#hasComment"/>
@@ -3548,18 +3508,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasCurrentAssets"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasDeferredRevenue"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasDepreciationExpense"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#hasDescription"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
@@ -3568,36 +3516,12 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty abbreviatedIRI="sch:description"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasEndowment"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#hasExpectation"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasFundRaising"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasGovernmentGrants"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasImpactModelFile"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#hasImportance"/>
         <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasInventory"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasInvestmentExpense"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#hasLikelihood"/>
@@ -3620,60 +3544,16 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasProjectDescriptionFile"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasProjectName"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasProjectObjectives"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#hasReportedImpact"/>
         <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasSalesRevenue"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#hasSpecification"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasTotalAssets"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasTotalExpenses"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasTotalLiabilities"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasTotalOverhead"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasTotalRevenues"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#hasWebAddress"/>
         <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#imagineCanadaProgram"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#indigenous"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#indigenousBoard"/>
@@ -3696,56 +3576,8 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#lGBTQ2Splus"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#livingWithMentalIllnessAddiction"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#lowIncome"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#officialLanguageMinorityCommunities"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#peopleWithDisabilities"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#racialized"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#ruralRemoteNorthernCommunity"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#seniors"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#servesGeographicRegion"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#servesMarket"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#targetClient"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#useOfFunds"/>
         <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#womenAndGirls"/>
-        <DataProperty IRI="#commonFormDataProperties"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#womenBoard"/>
