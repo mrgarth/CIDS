@@ -2654,9 +2654,9 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#Service"/>
         <Class IRI="#cidsThing"/>
     </SubClassOf>
-    <SubClassOf>
+        <SubClassOf>
         <Class IRI="#Service"/>
-        <Class abbreviatedIRI="act:Activity"/>
+        <Class IRI="#Activity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Service"/>
