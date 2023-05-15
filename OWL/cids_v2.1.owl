@@ -3472,54 +3472,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#bsChildrenYouth"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsDisabilities"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsIndigenous"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsLGBTQ"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsLowIncome"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsMentalHealth"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsMinority"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsNewcomer"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsRacialized"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsRemote"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsSenior"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#bsWomenGirls"/>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#childrenAndYouth"/>
         <DataProperty IRI="#commonFormDataProperties"/>
     </SubDataPropertyOf>
@@ -3689,10 +3641,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#hasSpecification"/>
-        <DataProperty IRI="#cidsDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasStakeholderCharacteristic"/>
         <DataProperty IRI="#cidsDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -4361,7 +4309,6 @@ Properties common across all types of Input are:
 •	hasProgram: Identifies all the Programs being modeled.
 •	hasStakeholder: Identifies key stakeholders participating in the model.
 •	hasOutcome: Identifies key Outcomes for the model.
-•	hasStakeholderCharacteristic: set of StakeholderCharacteristic the Impact Model uses.
 •	hasStakeholderOutcome: identifies the outcome specific to a stakeholder.
 •	hasInput: Identifies key Inputs for the model.
 •	hasOutput: Identifies key Outputs for the model.
@@ -4570,7 +4517,6 @@ Stakeholder contains the following properties:
 •	hasName (title): A title for the stakeholder as a string.
 •	hasDescription: A general description of the stakeholder as a string.
 •	hasCatchmentArea: Specifies the regional span of the stakeholders.
-•	hasStakeholderCharacteristic: Specifies characteristics of the stakeholder 
 •	performs: Links to the activities performed by the stakeholder.
 •	i72:located_in: Links to the specific geographic area in which the stakeholder is located.
 •	oep:part of: Links the Impact Model that the stakeholder is being specified for.</Literal>
