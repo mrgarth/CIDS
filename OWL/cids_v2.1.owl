@@ -38,6 +38,7 @@
     <Import>http://ontology.eil.utoronto.ca/tove/icontact.owl</Import>
     <Import>http://ontology.eil.utoronto.ca/tove/organization.owl</Import>
     <Import>http://www.w3.org/2006/time.rdf</Import>
+    <Import>http://www.w3.org/ns/dcat.rdf</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="cc:license"/>
         <Literal>Common Impact Data Standard V2.1 © 2023 by Common Approach to Impact Measurement is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/</Literal>
@@ -153,9 +154,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Counterfactual"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Dataset"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DcThing"/>
@@ -1301,66 +1299,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#Counterfactual"/>
         <DataExactCardinality cardinality="1">
             <DataProperty IRI="#hasDescription"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dataset"/>
-        <Class IRI="#cidsThing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dataset"/>
-        <Class abbreviatedIRI="dcat:Dataset"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dataset"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty abbreviatedIRI="i72:located_in"/>
-            <Class abbreviatedIRI="i72:Feature"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dataset"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty abbreviatedIRI="dc:temporal"/>
-            <ObjectUnionOf>
-                <Class abbreviatedIRI="dc:PeriodOfTime"/>
-                <Class abbreviatedIRI="time:DateTimeInterval"/>
-            </ObjectUnionOf>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dataset"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty abbreviatedIRI="dcat:temporal"/>
-            <Class abbreviatedIRI="time:DateTimeInterval"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dataset"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="sch:dateCreated"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dataset"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="sch:description"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dataset"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="sch:identifier"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dataset"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="sch:name"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataExactCardinality>
     </SubClassOf>
@@ -3638,22 +3576,6 @@ i72:value: value of the counterfactual</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Counterfactual</IRI>
         <Literal xml:lang="en">Counterfactual</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Dataset</IRI>
-        <Literal xml:lang="en">Dataset provides basic information about the datasets used. It has the following properties:
-•	i72:located_in: specifies the spatial area that the dataset covers
-•	dc:temporal: specifies the time interval that the dataset covers
-•	sch:identifier: specifies the unique ID of the dataset, if any
-•	sch:name: specifies the name of the dataset
-•	sch:description: provides a description of the dataset
-•	sch:dateCreated: specified the date the dataset was created</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Dataset</IRI>
-        <Literal xml:lang="en">Dataset</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
