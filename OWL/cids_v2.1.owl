@@ -281,9 +281,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#RatioIndicator"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ServedPopulation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Service"/>
     </Declaration>
     <Declaration>
