@@ -38,7 +38,6 @@
     <Import>http://ontology.eil.utoronto.ca/tove/icontact.owl</Import>
     <Import>http://ontology.eil.utoronto.ca/tove/organization.owl</Import>
     <Import>http://www.w3.org/2006/time.rdf</Import>
-    <Import>http://www.w3.org/ns/dcat.rdf</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="cc:license"/>
         <Literal>Common Impact Data Standard V2.1 © 2023 by Common Approach to Impact Measurement is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/</Literal>
