@@ -278,9 +278,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <Class IRI="#Program"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#QualitativeMetric"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#RatioIndicator"/>
     </Declaration>
     <Declaration>
