@@ -644,103 +644,10 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#beneficialSizeStart"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#blackBoard"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#blackLead"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#blackOwned"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsChildrenYouth"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsDisabilities"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsIndigenous"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsLGBTQ"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsLowIncome"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsMentalHealth"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsMinority"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsNewcomer"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsRacialized"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsRemote"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsSenior"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#bsWomenGirls"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#childrenAndYouth"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#cidsDataProperty"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#codeValueDescription"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#commonFormDataProperties"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#forYear"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#forYear1"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#forYear2"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#forYear3"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#fundsIntension"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#fundsRequested"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasAuditedFinancialStatement"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasBCorpProfile"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasBCorpScore"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasBios"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasBudgetFile"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasBusinessPlanFile"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasCatchmentArea"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasCharityProfile"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasComment"/>
@@ -749,40 +656,13 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#hasConsequence"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasCurrentAssets"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDeferredRevenue"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDepreciationExpense"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasDescription"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasEndowment"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasExpectation"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasFundRaising"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasGovernmentGrants"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasImpactModelFile"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasImportance"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasInventory"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasInvestmentExpense"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasLikelihood"/>
@@ -800,19 +680,7 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#hasOccupation"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasProjectDescriptionFile"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasProjectName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasProjectObjectives"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasReportedImpact"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasSalesRevenue"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasSpecification"/>
@@ -821,91 +689,13 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
         <DataProperty IRI="#hasStakeholderCharacteristic"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasTotalAssets"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasTotalExpenses"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasTotalLiabilities"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasTotalOverhead"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasTotalRevenues"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasWebAddress"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#imagineCanadaProgram"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#indigenous"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#indigenousBoard"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#indigenousOwned"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#indigenouseLead"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#intendedImpact"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#isUnderserved"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#lGBTQ2Splus"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#livingWithMentalIllnessAddiction"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#lowIncome"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#officialLanguageMinorityCommunities"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#peopleWithDisabilities"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#racialized"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#ruralRemoteNorthernCommunity"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#seniors"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#servesGeographicRegion"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#servesMarket"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#targetClient"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#useOfFunds"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#womenAndGirls"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#womenBoard"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#womenLead"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#womenOwned"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="sch:birthDate"/>
@@ -3403,9 +3193,6 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#isUnderserved"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
-        <DataProperty IRI="#useOfFunds"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty abbreviatedIRI="ic:hasBuilding"/>
