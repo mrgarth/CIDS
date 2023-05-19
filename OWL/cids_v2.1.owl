@@ -28,7 +28,6 @@
     <Prefix name="cwrc" IRI="http://sparql.cwrc.ca/ontologies/cwrc#"/>
     <Prefix name="dcat" IRI="http://www.w3.org/ns/dcat#"/>
     <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
-    <Prefix name="gcif" IRI="http://ontology.eil.utoronto.ca/GCI/Finance/GCI-Finance#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
     <Prefix name="time" IRI="http://www.w3.org/2006/time#"/>
@@ -111,9 +110,7 @@ version 0.1 6 November 2019</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="adms:relatedDocumentation"/>
-        <Literal xml:lang="en">Common Approach to Impact Measurement (2023) “Common Impact Data Standard V2.1 An Ontology for Representing Impact”  
-
-https://www.commonapproach.org/developers/data-standard/</Literal>
+        <Literal xml:lang="en">Common Approach to Impact Measurement (2023) “Technical Guide: The Common Impact Data Standard V2.1 An Ontology for Representing Impact”, Common Approach to Impact Measurement. DOI 10.5281/zenodo.7930431 https://www.commonapproach.org/wp-content/uploads/2021/03/Common-Impact-Data-Standard-V2.1.pdf</Literal>
     </Annotation>
     <Declaration>
         <Class abbreviatedIRI="i72:Feature"/>
@@ -3290,7 +3287,7 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:commment"/>
         <IRI>#BeneficialStakeholder</IRI>
-        <Literal xml:lang="en">A Beneficiary_Stakeholder is a stakeholder that benefits from an impact model’s outcome.</Literal>
+        <Literal xml:lang="en">A Beneficial Stakeholder is a stakeholder that benefits from an impact model’s outcome.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3335,7 +3332,7 @@ https://www.commonapproach.org/developers/data-standard/</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:commment"/>
         <IRI>#ContributingStakeholder</IRI>
-        <Literal xml:lang="en">Contributor_Stakeholder is a stakeholder that contributes input to ensure a service can produce outcomes.</Literal>
+        <Literal xml:lang="en">Contributing Stakeholder is a stakeholder that contributes input to ensure a service can produce outcomes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
