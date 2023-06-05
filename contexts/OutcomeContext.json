@@ -1,19 +1,19 @@
 
 	{
 		"@context": [
-			"http://ontology.commonapproach.org/owl/contexts/cidsPrefix.json" ,
+			"http://ontology.commonapproach.org/owl/contexts/cidsprefix.json" ,
 		    {
 		    "hasCode": {
 				"@id": "cids:hasCode",
               	"@type": "cids:Code"
 			},
-			"hasStakholderOutcome": {
+			"hasStakeholderOutcome": {
 				"@id": "cids:hasStakholderOutcome",
               	"@type": "cids:StakholderOutcome"
 			},
-			"forDomain": {
-				"@id": "cids:forDomain",
-              	"@type": "cids:Domain"
+			"forTheme": {
+				"@id": "cids:forTheme",
+              	"@type": "cids:Theme"
 			},
 			"hasIndicator": {
 				"@id": "cids:hasIndicator",
