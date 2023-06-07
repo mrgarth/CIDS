@@ -1,8 +1,8 @@
 
 	{
 		"@context": [
-			"http://ontology.commonapproach.org/owl/contexts/cidsPrefix.json" ,
-			"http://ontology.commonapproach.org/owl/contexts/TOVEOrganizationContext.json" ,
+			"http://ontology.commonapproach.org/contexts/cidsPrefix.json" ,
+			"http://ontology.commonapproach.org/contexts/TOVEOrganizationContext.json" ,
 		    {
 			"hasImpactModel": {
 				"@id": "cids:hasImpactModel",

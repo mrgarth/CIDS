@@ -1,15 +1,15 @@
 
 	{
 		"@context": [
-			"http://ontology.commonapproach.org/owl/contexts/cidsprefix.json" ,
+			"http://ontology.commonapproach.org/contexts/cidsprefix.json" ,
 		    {
 		    "hasCode": {
 				"@id": "cids:hasCode",
               	"@type": "cids:Code"
 			},
 			"hasStakeholderOutcome": {
-				"@id": "cids:hasStakholderOutcome",
-              	"@type": "cids:StakholderOutcome"
+				"@id": "cids:hasStakeholderOutcome",
+              	"@type": "cids:StakeholderOutcome"
 			},
 			"forTheme": {
 				"@id": "cids:forTheme",

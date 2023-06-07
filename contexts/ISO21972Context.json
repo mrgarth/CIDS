@@ -1,6 +1,6 @@
 
 	{
-		"@context": ["http://ontology.commonapproach.org/owl/contexts/cidsPrefix.json",
+		"@context": ["http://ontology.commonapproach.org/contexts/cidsPrefix.json",
 		{
 			"value" : {
 				"@id": "i72:value",

@@ -1,7 +1,7 @@
 {
 "@context": {
 		"act": "http://ontology.eil.utoronto.ca/tove/activity#" ,
-		"cids": "http://ontology.commonapproach.org/owl/cids#" ,
+		"cids": "http://ontology.commonapproach.org/owl/cids_v2.1#" ,
 		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#" ,
 		"dcat": "http://www.w3.org/ns/dcat#" ,
 		"dqv": "http://www.w3.org/ns/dqv#",

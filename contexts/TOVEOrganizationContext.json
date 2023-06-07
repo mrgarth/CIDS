@@ -1,11 +1,11 @@
 
 	{
 		"@context": [
-			"http://ontology.commonapproach.org/owl/contexts/cidsPrefix.json" ,
-			"http://ontology.commonapproach.org/owl/contexts/OrganizationIDContext.json" ,
-			"http://ontology.commonapproach.org/owl/contexts/AddressContext.json" ,
-			"http://ontology.commonapproach.org/owl/contexts/PhoneNumberContext.json" ,
-			"http://ontology.commonapproach.org/owl/contexts/PersonContext.json" ,
+			"http://ontology.commonapproach.org/contexts/cidsPrefix.json" ,
+			"http://ontology.commonapproach.org/contexts/OrganizationIDContext.json" ,
+			"http://ontology.commonapproach.org/contexts/AddressContext.json" ,
+			"http://ontology.commonapproach.org/contexts/PhoneNumberContext.json" ,
+			"http://ontology.commonapproach.org/contexts/PersonContext.json" ,
 		{
 			"hasID": {
 				"@id": "org:hasID",

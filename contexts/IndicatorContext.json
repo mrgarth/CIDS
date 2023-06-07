@@ -1,7 +1,7 @@
 
 	{
 		"@context": [
-			"http://ontology.commonapproach.org/owl/contexts/cidsPrefix.json" ,
+			"http://ontology.commonapproach.org/contexts/cidsPrefix.json" ,
 		    {
 			 "hasCode": {
 				"@id": "cids:hasCode",
