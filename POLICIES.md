@@ -5,7 +5,7 @@
 For the purposes of authorship and copyright, the ontology is copyright 2024
 Common Approach to Impact Measurement.  The common approach ontology is
 being collaboratively developed over a long period of time.  Individual
-controbutors to the ontology are recorded in alphabethical order for the
+contributors to the ontology are recorded in alphabetical order for the
 specific revisions that they worked on.
 
 ## License 
@@ -20,12 +20,12 @@ any ontology term will be forced to upgrade to HTTPS.
 ## Availability 
 
 The ontology is available at https://ontology.commonapproach.org/cids,
-specific serializations or the ontology documentation can be retreived
-through the approapriate extension or HTTP Content Negotiation.
+specific serializations or the ontology documentation can be retrieved
+through the appropriate extension or HTTP Content Negotiation.
 
 ## Ontology Versioning
 
-THe ontology uses simple version tracking using the appropriate OWL, Void
+The ontology uses simple version tracking using the appropriate OWL, Void
 and DCAT versioning properties. `owl:previousVersion` triples are provided
 for applications to track earlier versions.
 
