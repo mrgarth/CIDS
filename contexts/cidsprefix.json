@@ -6,6 +6,7 @@
 		"dcat": "http://www.w3.org/ns/dcat#" ,
 		"dqv": "http://www.w3.org/ns/dqv#",
 		"foaf": "http://xmlns.com/foaf/0.1/" ,
+		"geo" : "https://sws.geonames.org/",
 		"ic": "http://ontology.eil.utoronto.ca/tove/icontact#" ,
 		"i72": "http://ontology.eil.utoronto.ca/ISO21972/iso21972#",
 		"oep": "http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#" ,
