@@ -695,6 +695,8 @@
 
     <owl:ObjectProperty rdf:about="http://ontology.eil.utoronto.ca/ISO21972/iso21972#unit_of_measure">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="#Counterfactual"/>
+        <rdfs:domain rdf:resource="#HowMuchImpact"/>
     </owl:ObjectProperty>
     
 
