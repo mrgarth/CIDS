@@ -10,7 +10,6 @@
     <link href="css/style.css" rel="stylesheet"  type="text/css" />
     <link rel="mvcb:generatorAgent" type="application/rdf+xml" title="DOAP" href="https://raw.githubusercontent.com/muninn/ontology-tools/master/rdf/voidDescription.rdf" />
     <script id="vocab" type="application/ld+json">
-     m4_include(cids-ONTOLOGY_DATE.jsonld)
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/exampleSwitcher.js"></script>
@@ -29,12 +28,26 @@
     <hr />
 
     <h2 id="abstract">Abstract</h2>
-        <p>The scope of this ontology is </p>
+        <p>The Common Impact Data Standard (CIDS):</p>
+        <p>
+        <ul>
+        <li>
+
+    Provides a standard representation for the core concepts and attributes that underlie impact models (e.g., logic model, impact thesis, theory of change, etc.), inputs, activities, outputs, and outcomes.;
+    <li>Provides a standard for representing the definition of an organizations’ stakeholders, outcomes, indicators, impact, etc.
+    <li>Provides a flexible standard in that any impact model can be mapped onto this data standard;
+    <li>Supports interoperability amongst impact models by enabling the transformation of data from one impact model to another;
+    <li>Complements other impact standards (such as IRIS+ taxonomy of metrics) and other data standards (such as the common data standard and IATI);
+    <li>Simplifies the sharing and analysis of impact data, including data from different sources, organizations, and software;
+    <li>Is extensible in that additional concepts and attributes can be added to meet the specific needs of an organization;
+    <li>Makes it possible to assess the similarity of indicators from multiple sources; and
+    <li>Is a Semantic Representation, that making it easier to use AI and Machine Learning to analyse the data.
+    </ul>
+    </p>
 
     <h2 id="contents">Table of Contents</h2>
     <div class="table-contents">
      <ul style="list-style-type:none;">
-    m4_include(cids-toc-en.html)
      </ul>
     </div>
 
@@ -67,9 +80,7 @@
 {_deprecated_}
 
     <h3 id="bibliography">12. Ontology Bibliography</h3>
-    <p>This bibliography is available as a Bibtex file <a href="cids-ONTOLOGY_DATE.bib">here</a>.</p>
 
-m4_include(cids-citations.html)
 
     <!-- =====================================================================
      ===================================================================== -->
