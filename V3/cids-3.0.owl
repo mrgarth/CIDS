@@ -972,9 +972,9 @@
     
 
 
-    <!-- https://ontology.commonapproach.org/cids-3.0#hasMission -->
+    <!-- https://ontology.commonapproach.org/cids-3.0#hasPurpose -->
 
-    <owl:DatatypeProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#hasMission">
+    <owl:DatatypeProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#hasPurpose">
         <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsDataProperty"/>
     </owl:DatatypeProperty>
     
@@ -2825,7 +2825,7 @@ Properties common across all types of Input are:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasMission"/>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasPurpose"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2851,7 +2851,7 @@ Properties common across all types of Input are:
 •	hasContact: Identifies one or more contacts for the organization.
 •	hasDescription: a string that describes the Organization.
 •	hasWebAddress: a URI specifying the website for the organization.
-•	hasMission: text defining the mission or vision of the organization.
+•	hasPurpose: text defining the mission or vision of the organization.
 •	sch:dateCreated: the date the Organization’s record was created.</dc:description>
         <rdfs:label xml:lang="en">Organization</rdfs:label>
     </owl:Class>
