@@ -3798,6 +3798,14 @@ Stakeholder contains the following properties:
     </owl:Class>
     
 
+    <owl:ObjectProperty rdf:about="#relatesTo">
+        <rdfs:Range rdf:resource="#Theme"/>
+        <rdfs:Domain rdf:resource="#Theme"/>
+        <cids:hasName xml:lang="en">Relates To</cids:hasName>
+        <rdfs:label xml:lang="en">Relates To</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
+    </owl:ObjectProperty>
+   
 
     <!-- https://ontology.commonapproach.org/cids-3.0#Theme -->
 
