@@ -585,6 +585,7 @@
 
     <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#hasStakeholder">
         <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
+        <rdfs:domain rdf:resource="#Organization"/>
     </owl:ObjectProperty>
     
 
