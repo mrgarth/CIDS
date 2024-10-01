@@ -2868,6 +2868,13 @@ Properties common across all types of Input are:
         <rdfs:subClassOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsThing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="#forOrganization"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#canEnable"/>
                 <owl:allValuesFrom>
                     <owl:Class>
