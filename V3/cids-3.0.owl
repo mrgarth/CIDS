@@ -3511,6 +3511,12 @@ A person can play a role at an organization. For any role, a person can be assig
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
+         <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#forOrganization"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+         </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasCharacteristic"/>
                 <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Characteristic"/>
