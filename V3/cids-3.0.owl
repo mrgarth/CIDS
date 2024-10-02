@@ -1493,6 +1493,7 @@
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
          <owl:Restriction>
           <owl:onProperty rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#unit_of_measure"/>
           <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -2124,15 +2125,33 @@ i72:value: value of the counterfactual</rdfs:comment>
     </owl:Class>
     
 
-
-    <!-- https://ontology.commonapproach.org/cids-3.0#ImpactNorms -->
-
-    <owl:Class rdf:about="https://ontology.commonapproach.org/cids-3.0#ImpactNorms">
-        <rdfs:subClassOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#ImpactModel"/>
+    <owl:Class rdf:about="#ImpactPathway">
+	<rdfs:label xml:lang="en">Impact Pathway</rdfs:label>
+	<cids:hasName xml:lang="en">Impact Pathway</cids:hasName>
+	<cids:hasDescription xml:lang="en">An impact pathway is a “sequence that links organisations’ actions with their effects on people and the natural environment. The impact pathway describes the link between organisations’ inputs, activities and outputs with their effects on people and the natural environment, notably outcomes and impact.”</cids:hasDescription>
+        <rdfs:subClassOf rdf:resource="#ImpactModel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasImpactReport"/>
-                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#ImpactReport"/>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasInput"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Input"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasOutcome"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Outcome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasOutput"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Output"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasActivity"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Activity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2149,12 +2168,6 @@ i72:value: value of the counterfactual</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasOutcome"/>
-                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Outcome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasStakeholder"/>
                 <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Stakeholder"/>
             </owl:Restriction>
@@ -2165,16 +2178,16 @@ i72:value: value of the counterfactual</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#StakeholderOutcome"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:commment xml:lang="en">ImpactNorms is a subclass of ImpactModel. It can be used to extend any of the above Impact Models to represent Impact as defined by the Impact Management Project. The top-level definition of an ImpactNorms class contains the following properties:
-•	hasStakeholder: Identifies stakeholders which are the focus of the outcomes – corresponds to the “Who” in Impact Measurement.
-•	hasOutcome: Identifies key Outcomes for the model – corresponds to the “What” in Impact Measurement.
-•	hasStakeholderOutcome: Identifies the importance of the outcome to the stakeholder.
-•	hasIndicator: Identifies key Indicators for the model.
-•	hasImpactReport: Identifies key Impacts for the model.
-•	hasIndicatorReport: set of IndicatorReports associated with this model.</rdfs:commment>
-        <rdfs:label xml:lang="en">Impact Norms</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasProgram"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Program"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+
     </owl:Class>
-    
+
+
 
 
     <!-- https://ontology.commonapproach.org/cids-3.0#ImpactReport -->
