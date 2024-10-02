@@ -1945,8 +1945,7 @@ i72:value: value of the counterfactual</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#forIndicator"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontology.commonapproach.org/cids-3.0#Indicator"/>
+                <owl:allValuesFrom  rdf:resource="https://ontology.commonapproach.org/cids-3.0#Indicator"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
