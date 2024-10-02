@@ -166,6 +166,10 @@
     <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#Occupation">
         <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
     </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#numberOf">
+        <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
+    </owl:ObjectProperty>
     
 
 
@@ -253,6 +257,14 @@
     <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#forOrganization">
         <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#hasOrganization">
+        <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#hasPerson">
+        <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
     </owl:ObjectProperty>
     
 
@@ -342,6 +354,10 @@
     <!-- https://ontology.commonapproach.org/cids-3.0#hasCharacteristic -->
 
     <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#hasCharacteristic">
+        <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#forCharacteristic">
         <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -3678,6 +3694,69 @@ Stakeholder contains the following properties:
 •	i72:located_in: Links to the specific geographic area in which the stakeholder is located.
 •	oep:part of: Links the Impact Model that the stakeholder is being specified for.</rdfs:commment>
         <rdfs:label xml:lang="en">Stakeholder</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="CharacteristicReport">
+        <rdfs:label xml:lang="en">Characteristic Report</rdfs:label>
+        <cids:hasName xml:lang="en">Characteristic Report</cids:hasName>
+        <cids:hasDescription xml:lang="en">Identifies the number of members which possess a certain characteristic or set of characteristics over a period of time.</cids:hasDescription>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#forCharacteristic"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Characteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#numberOf"/>
+                <owl:allValuesFrom rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="StakeholderReport">
+        <rdfs:label xml:lang="en">Stakeholder Report</rdfs:label>
+        <cids:hasName xml:lang="en">Stakeholder Report</cids:hasName>
+        <cids:hasDescription xml:lang="en">The StakeholderReport class is used to identify the number of stakeholders who possess certain characteristics over a period of time.</cids:hasDescription>
+        <rdfs:subClassOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsThing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasCharacteristic"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Characteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasCharacteristicReport"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#CharacteristicReport"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#forStakeholder"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Stakeholder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#hasTime"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasPerson"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasOrganization"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+
     </owl:Class>
     
 
