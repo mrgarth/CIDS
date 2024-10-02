@@ -291,6 +291,10 @@
     <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#forTheme">
         <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
     </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://ontology.commonapproach.org/cids-3.0#hasTheme">
+        <rdfs:subPropertyOf rdf:resource="https://ontology.commonapproach.org/cids-3.0#cidsObjectProperty"/>
+    </owl:ObjectProperty>
     
 
 
@@ -3083,6 +3087,12 @@ Properties common across all types of Input are:
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasOutcome"/>
                 <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Outcome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontology.commonapproach.org/cids-3.0#hasTheme"/>
+                <owl:allValuesFrom rdf:resource="https://ontology.commonapproach.org/cids-3.0#Theme"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:commment xml:lang="en">OutcomeChain is a subclass of ImpactModel. The top-level definition of an ImpactChain contains the following properties:
