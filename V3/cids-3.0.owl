@@ -36,7 +36,7 @@
         <owl:imports rdf:resource="http://ontology.eil.utoronto.ca/tove/organization.owl"/>
         <owl:imports rdf:resource="http://www.w3.org/2006/time.rdf"/>
         <cc:license>Common Impact Data Standard V2.1 © 2023 by Common Approach to Impact Measurement is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/</cc:license>
-        <dc:creator rdf:resource="#ac"/>
+        <dcterms:creator rdf:resource="#ac"/>
         <dcterms:description xml:lang="en">The Common Impact Data Standard (CIDS) provides a standard representation for the core concepts and attributes that underlie impact models (e.g., logic model, impact thesis, theory of change, etc.), inputs, activities, outputs, and outcomes.</dcterms:description>
         <dcterms:title xml:lang="en">Common Impact Data Standard</dcterms:title>
         <vann:preferredNamespacePrefix>cids</vann:preferredNamespacePrefix>
@@ -57,6 +57,8 @@
      -->
     <cids:Organization rdf:about="#ac">
       <cids:hasName xml:lang="en">Common Approach to Impact Measurement</cids:hasName>
+      <foaf:name xml:lang="en">Common Approach to Impact Measurement</foaf:name>
+      <rdfs:label xml:lang="en">Common Approach to Impact Measurement</rdfs:label>
       <rdfs:isDefinedBy rdf:resource="#"/> 
     </cids:Organization>
     
