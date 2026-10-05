@@ -1,0 +1,383 @@
+{
+  "@context": {
+    "act": "http://ontology.eil.utoronto.ca/tove/activity#",
+    "adms": "http://www.w3.org/ns/adms#",
+    "cc": "http://creativecommons.org/ns#",
+    "cids": "https://ontology.commonapproach.org/cids#",
+    "cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+    "dash": "http://datashapes.org/dash#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dqv": "http://www.w3.org/ns/dqv#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.geonames.org/ontology/ontology_v3.1.rdf#",
+    "graphql": "http://datashapes.org/graphql#",
+    "i72": "http://ontology.eil.utoronto.ca/ISO21972/iso21972#",
+    "ic": "http://ontology.eil.utoronto.ca/tove/icontact#",
+    "oep": "http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#",
+    "org": "http://ontology.eil.utoronto.ca/tove/organization#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rel": "http://purl.org/vocab/relationship/",
+    "sch": "http://schema.org/",
+    "sff": "https://ontology.commonapproach.org/sff#",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sur": "http://ontology.eil.utoronto.ca/tove/survey#",
+    "swa": "http://topbraid.org/swa#",
+    "terms": "http://purl.org/dc/terms/",
+    "time": "http://www.w3.org/2006/time#",
+    "tosh": "http://topbraid.org/tosh#",
+    "vann": "http://purl.org/vocab/vann/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "xdmp": "http://marklogic.com/xdmp#",
+    "sem": "http://marklogic.com/semantics#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "iso5087": "https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/GenericProperties/",
+    
+    "forActivity": {
+      "@id": "act:forActivity",
+      "@type": "@id"
+    },
+    "addressCountry": {
+      "@id": "cids:addressCountry",
+      "@type": "xsd:string"
+    },
+    "addressLocality": {
+      "@id": "cids:addressLocality",
+      "@type": "xsd:string"
+    },
+    "addressRegion": {
+      "@id": "cids:addressRegion",
+      "@type": "xsd:string"
+    },
+    "belongsToTier": {
+      "@id": "cids:belongsToTier",
+      "@type": "@id"
+    },
+    "benefitsFrom": {
+      "@id": "cids:benefitsFrom",
+      "@type": "@id"
+    },
+    "canEnable": {
+      "@id": "cids:canEnable",
+      "@type": "@id"
+    },
+    "canProduce": {
+      "@id": "cids:canProduce",
+      "@type": "@id"
+    },
+    "definedBy": {
+      "@id": "cids:definedBy",
+      "@type": "@id"
+    },
+    "extendedAddress": {
+      "@id": "cids:extendedAddress",
+      "@type": "xsd:string"
+    },
+    "forCharacteristic": {
+      "@id": "cids:forCharacteristic",
+      "@type": "@id"
+    },
+    "forIndicator": {
+      "@id": "cids:forIndicator",
+      "@type": "@id"
+    },
+    "forOrganization": {
+      "@id": "cids:forOrganization",
+      "@type": "@id"
+    },
+    "forOutcome": {
+      "@id": "cids:forOutcome",
+      "@type": "@id"
+    },
+    "forStakeholder": {
+      "@id": "cids:forStakeholder",
+      "@type": "@id"
+    },
+    "forTheme": {
+      "@id": "cids:forTheme",
+      "@type": "@id"
+    },
+    "fromPerspectiveOf": {
+      "@id": "cids:fromPerspectiveOf",
+      "@type": "@id"
+    },
+    "hasAccess": {
+      "@id": "cids:hasAccess",
+      "@type": "@id"
+    },
+    "hasActivity": {
+      "@id": "cids:hasActivity",
+      "@type": "@id"
+    },
+    "hasAddress": {
+      "@id": "cids:hasAddress",
+      "@type": "@id"
+    },
+    "hasBaseline": {
+      "@id": "cids:hasBaseline",
+      "@type": "@id"
+    },
+    "hasBeneficialStakeholder": {
+      "@id": "cids:hasBeneficialStakeholder",
+      "@type": "@id"
+    },
+    "hasCatchmentArea": {
+      "@id": "cids:hasCatchmentArea",
+      "@type": "xsd:string"
+    },
+    "hasCharacteristic": {
+      "@id": "cids:hasCharacteristic",
+      "@type": "@id"
+    },
+    "hasCharacteristicReport": {
+      "@id": "cids:hasCharacteristicReport",
+      "@type": "@id"
+    },
+    "hasCode": {
+      "@id": "cids:hasCode",
+      "@type": "@id"
+    },
+    "hasComment": {
+      "@id": "cids:hasComment",
+      "@type": "xsd:string"
+    },
+    "hasContact": {
+      "@id": "cids:hasContact",
+      "@type": "@id"
+    },
+    "hasContributingStakeholder": {
+      "@id": "cids:hasContributingStakeholder",
+      "@type": "@id"
+    },
+    "hasCounterfactual": {
+      "@id": "cids:hasCounterfactual",
+      "@type": "@id"
+    },
+    "hasDescription": {
+      "@id": "cids:hasDescription",
+      "@type": "xsd:string"
+    },
+    "hasExpectation": {
+      "@id": "cids:hasExpectation",
+      "@type": "xsd:string"
+    },
+    "hasHowMuch": {
+      "@id": "cids:hasHowMuch",
+      "@type": "@id"
+    },
+    "hasImpactDepth": {
+      "@id": "cids:hasImpactDepth",
+      "@type": "@id"
+    },
+    "hasImpactDuration": {
+      "@id": "cids:hasImpactDuration",
+      "@type": "@id"
+    },
+    "hasImpactModel": {
+      "@id": "cids:hasImpactModel",
+      "@type": "@id"
+    },
+    "hasImpactReport": {
+      "@id": "cids:hasImpactReport",
+      "@type": "@id"
+    },
+    "hasImpactRisk": {
+      "@id": "cids:hasImpactRisk",
+      "@type": "@id"
+    },
+    "hasImpactScale": {
+      "@id": "cids:hasImpactScale",
+      "@type": "@id"
+    },
+    "hasImportance": {
+      "@id": "cids:hasImportance",
+      "@type": "xsd:string"
+    },
+    "hasIndicator": {
+      "@id": "cids:hasIndicator",
+      "@type": "@id"
+    },
+    "hasIndicatorReport": {
+      "@id": "cids:hasIndicatorReport",
+      "@type": "@id"
+    },
+    "hasInput": {
+      "@id": "cids:hasInput",
+      "@type": "@id"
+    },
+    "hasMitigation": {
+      "@id": "cids:hasMitigation",
+      "@type": "xsd:string"
+    },
+    "hasOutcome": {
+      "@id": "cids:hasOutcome",
+      "@type": "@id"
+    },
+    "hasOutput": {
+      "@id": "cids:hasOutput",
+      "@type": "@id"
+    },
+    "hasPerson": {
+      "@id": "cids:hasPerson",
+      "@type": "@id"
+    },
+    "hasProgram": {
+      "@id": "cids:hasProgram",
+      "@type": "@id"
+    },
+    "hasPurpose": {
+      "@id": "cids:hasPurpose",
+      "@type": "xsd:string"
+    },
+    "hasReportedImpact": {
+      "@id": "cids:hasReportedImpact",
+      "@type": "xsd:string"
+    },
+    "hasService": {
+      "@id": "cids:hasService",
+      "@type": "@id"
+    },
+    "hasSpecification": {
+      "@id": "cids:hasSpecification",
+      "@type": "xsd:anyURI"
+    },
+    "hasStakeholder": {
+      "@id": "cids:hasStakeholder",
+      "@type": "@id"
+    },
+    "hasStakeholderOutcome": {
+      "@id": "cids:hasStakeholderOutcome",
+      "@type": "@id"
+    },
+    "hasThreshold": {
+      "@id": "cids:hasThreshold",
+      "@type": "@id"
+    },
+    "hasType": {
+      "@id": "cids:hasType",
+      "@type": "xsd:string"
+    },
+    "hasWebAddress": {
+      "@id": "cids:hasWebAddress",
+      "@type": "xsd:anyURI"
+    },
+    "intendedImpact": {
+      "@id": "cids:intendedImpact",
+      "@type": "xsd:string"
+    },
+    "isUnderserved": {
+      "@id": "cids:isUnderserved",
+      "@type": "xsd:boolean"
+    },
+    "label": "rdfs:label",
+    "postalCode": {
+      "@id": "cids:postalCode",
+      "@type": "xsd:string"
+    },
+    "postOfficeBoxNumber": {
+      "@id": "cids:postOfficeBoxNumber",
+      "@type": "xsd:string"
+    },
+    "produces": {
+      "@id": "cids:produces",
+      "@type": "@id"
+    },
+    "relatesTo": {
+      "@id": "cids:relatesTo",
+      "@type": "@id"
+    },
+    "streetAddress": {
+      "@id": "cids:streetAddress",
+      "@type": "xsd:string"
+    },
+    "unitDescription": {
+      "@id": "cids:unitDescription",
+      "@type": "xsd:string"
+    },
+    "usedByIndicator": {
+      "@id": "cids:usedByIndicator",
+      "@type": "@id"
+    },
+    "usesOutput": {
+      "@id": "cids:usesOutput",
+      "@type": "@id"
+    },
+    "familyName": {
+      "@id": "foaf:familyName",
+      "@type": "xsd:string"
+    },
+    "givenName": {
+      "@id": "foaf:givenName",
+      "@type": "xsd:string"
+    },
+    "hasNumericalValue": {
+      "@id": "i72:hasNumericalValue",
+      "@type": "xsd:string"
+    },
+    "symbol": {
+      "@id": "i72:symbol",
+      "@type": "xsd:string"
+    },
+    "unit_of_measure": {
+      "@id": "i72:unit_of_measure",
+      "@type": "@id"
+    },
+    "value": {
+      "@id": "i72:value",
+      "@type": "@id"
+    },
+    "hasEmail": {
+      "@id": "ic:hasEmail",
+      "@type": "xsd:string"
+    },
+    "hasID": {
+      "@id": "org:hasID",
+      "@type": "@id"
+    },
+    "hasIdentifier": {
+      "@id": "org:hasIdentifier",
+      "@type": "xsd:string"
+    },
+    "hasLegalName": {
+      "@id": "org:hasLegalName",
+      "@type": "xsd:string"
+    },
+    "hasLegalStatus": {
+      "@id": "org:hasLegalStatus",
+      "@type": "owl:Thing"
+    },
+    "hasName": {
+      "@id": "org:hasName",
+      "@type": "xsd:string"
+    },
+    "hasRole": {
+      "@id": "org:hasRole",
+      "@type": "@id"
+    },
+    "issuedBy": {
+      "@id": "org:issuedBy",
+      "@type": "@id"
+    },
+    "numberOfEmployees": {
+      "@id": "org:numberOfEmployees",
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "endedAtTime": {
+      "@id": "prov:endedAtTime",
+      "@type": "xsd:dateTime"
+    },
+    "startedAtTime": {
+      "@id": "prov:startedAtTime",
+      "@type": "xsd:dateTime"
+    },
+    "description": {
+      "@id": "sch:description",
+      "@type": "xsd:string"
+    }
+  }
+}

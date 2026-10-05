@@ -1,10 +1,7 @@
 # Common Impact Data Standard Ontology Repository
 
-Issues and concerns welcome.
+The Production version of the ontology is located at https://ontology.commonapproach.org/cids
 
-Production version of the ontology is located at https://ontology.commonapproach.org/cids
+This repository temporarily contains all ontology versions for alignment purposes.
 
-This repository temporarily contains all ontology versions for alignment
-purposes.
-
-Technical contact: rdf@commonapproach.org
+### [Please read our introduction to RDF and the Common Impact Data Standard for Developers](faq/README.md)
